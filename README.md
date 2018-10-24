@@ -1,4 +1,3 @@
-/*
 	Object-Oriented Programming and Design Methodologies - Fall 2018
 	Final Project - Element War
 	The Klu Luss Klan : 
@@ -12,4 +11,3 @@
 	Unauthorized copying of this file, via any medium, is strictly prohibited
 	Proprietary and confidential
   Written by Muhammad Shahrom Ali <estineali@gmail.com>, October 2018
-*/
