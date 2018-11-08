@@ -1,13 +1,4 @@
-//
-//  Atom.hpp
-//  Element War
-//
-//  Created by Ali Shujjat on 07/11/2018.
-//  Copyright © 2018 Ali Shujjat. All rights reserved.
-//
-
-#ifndef Atom_hpp
-#define Atom_hpp
+#pragma once
 
 #include <stdio.h>
 
@@ -36,5 +27,3 @@ public:
     virtual void Move();
     virtual void Render(long int& frame, SDL_Renderer* gRenderer, bool debug);
 };
-
-#endif /* Atom_hpp */
