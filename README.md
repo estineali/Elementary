@@ -16,3 +16,12 @@
 	Proprietary and confidential
   
   Written by Muhammad Shahrom Ali <estineali@gmail.com>, October 2018
+  
+  ## Navigation: 
+  	All CPP files in the SourceFiles folder
+	All header/.h/.hpp files in the HeaderFiles folder
+	All the images/graphics that are being used are appropriately named and put in the materials folder
+	All the Documentation, fragmented, but present in the documentation folder
+	
+	Please keep the repository organized and clean. 
+	BigThank.
