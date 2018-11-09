@@ -1,8 +1,7 @@
 #pragma once 
 #include <stdio.h>
-#include <string.h>
 #include <iostream>
-
+#include <string>
 
 struct Position
 {
@@ -19,16 +18,14 @@ class Food
 {
 private:
 	int Health;
-	std::string Type_food;
-	//Sprite;
+	std::string type_of_food;
 	bool is_active;
+	//Sprite;
 public:
 	Food();
+	~Food();
 	void CollisionDetection();
 	void set_active(bool);
 	bool get_active();
 	Position get_position();
-	~Food();
-	
-	
 };
