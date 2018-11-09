@@ -26,5 +26,5 @@ public:
 	void set_active(bool);
 	bool get_active();
 	Position get_position();
-	void Move();
+	void move();
 };
