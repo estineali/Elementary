@@ -27,5 +27,4 @@ public:
 	bool get_active();
 	Position get_position();
 	void Move();
-	
 };
