@@ -1,6 +1,7 @@
 #pragma once
 #include <stdio.h>
 #include <iostream>
+#include "../HeaderFiles/Weapons.h"
 
 struct Position
 {
@@ -24,11 +25,12 @@ private:
     int damage;
 public:
 	Weapons();
+	~Weapons();
 	void CollisionDetection();
 	void set_active(bool);
 	bool get_active();
 	Position get_position();
 	void move();   //tentative
-	~Weapons();
+	
 	
 };

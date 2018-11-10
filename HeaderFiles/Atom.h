@@ -2,28 +2,37 @@
 
 #include <stdio.h>
 
+struct Position
+{
+    float x;
+    float y;
+    Position(float p_x, float p_y)
+    {
+        x = p_x;
+        y = p_y;
+    }
+};
+
 
 class Atom
 {
 protected:
-    bool alive;
-    int x;
-    int y;
+    bool is_active;
+    Position pos;
     int width;
     int height;
 
     
 public:
-    Atom(LTexture* image, float x, float y);
     Atom();
+    Atom(LTexture* image, Position p_pos);
     virtual ~Atom();
-    void SetAlive(bool);
-    bool GetAlive();
-    int GetWidth();
-    int GetHeight();
-    float GetX();
-    float GetY();
-    virtual void Move(int direction);
-    virtual void Move();
-    virtual void Render(long int& frame, SDL_Renderer* gRenderer, bool debug);
+    void set_alive(bool);
+    bool get_alive();
+    int get_height();
+    int get_width();
+    Position get_position();
+    virtual void Move(int direction) = 0;
+    virtual void Move() = 0;
+    virtual void Render(long int& frame, SDL_Renderer* gRenderer, bool debug) = 0;
 };
