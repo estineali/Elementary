@@ -26,7 +26,7 @@
 	Please keep the repository organized and clean. 
 	BigThank.
 
-##Tasks: 
+Tasks:
 	Videos - Ali 
 	TeX documentation - Sara
 	Sounds - Sarim
