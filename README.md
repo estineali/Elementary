@@ -25,3 +25,10 @@
 	
 	Please keep the repository organized and clean. 
 	BigThank.
+
+##Tasks: 
+	Videos - Ali 
+	TeX documentation - Sara
+	Sounds - Sarim
+	Sprites - Shahrom 
+	
