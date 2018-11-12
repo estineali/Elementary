@@ -27,8 +27,8 @@
 	BigThank.
 
 Tasks:
-	Videos - Ali 
-	TeX documentation - Sara
-	Sounds - Sarim
+	Videos - Ali, 
+	TeX documentation - Sara,
+	Sounds - Sarim,
 	Sprites - Shahrom 
 	
