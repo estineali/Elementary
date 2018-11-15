@@ -7,3 +7,37 @@
 //
 
 #include "../HeaderFiles/Food.h"
+#include <iostream>
+
+Food::Food()
+{
+
+	Health=0;
+	type_of_food= " ";
+	is_active= true;
+	
+}	
+
+
+Food::~Food(){
+	
+	
+}
+
+void Food::CollisionDetection( ){     //discuss 
+}
+
+void Food::set_active(bool is_active)
+{
+		this->is_active= is_active; 
+	
+	}
+	
+bool Food::get_active(){
+		return is_active;
+		
+}
+
+Position Food::get_position(){
+		return position;
+	}
