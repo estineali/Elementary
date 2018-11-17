@@ -17,6 +17,17 @@ LinkedList::LinkedList(int val)
 //Pending 
 LinkedList::~LinkedList()
 {
+	Node* temp;
+	int element_counter = 0;
+	while (m_first != NULL)
+	{
+		temp = m_first->m_node_ahead;
+		delete m_first;
+		element_counter++;
+		m_first = temp;
+	}
+	std::cout << "\nList Status: Destroyed " << element_counter;
+	std::cout << " elements. \nList Destroyed." << std::endl;
 }
 
 int LinkedList::at(int indx)
