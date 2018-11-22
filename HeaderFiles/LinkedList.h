@@ -24,13 +24,13 @@ public:
 	~LinkedList();//Destructor
 
 	int at(int indx);
-	//void set(int indx, int n);
+	void set(int indx, int n);
 	void insert(int indx, int n);
 	void append(int n);
-	//void remove(int indx);
+	void remove(int indx);
 
 	int size();
-	//int find(int n);
+	int find(int n);
 	bool is_empty();
 	void show();
 };
